@@ -9,6 +9,7 @@ import SearchFilterSection from './pages/SearchFilterSection';
 import HowItWorks from './pages/HowItWorks';
 import LostFoundList from './pages/LostFoundList';
 import PopularCategories from './pages/PopularCategories';
+import SuccessStories from './pages/SucessStories';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
          <Route path="/" element={<HowItWorks />} />
          <Route path="/" element={<LostFoundList />} />
           <Route path="/" element={<PopularCategories />} />
+           <Route path="/" element={<SuccessStories />} />
 
         <Route path="/report-lost" element={<ReportLost />} />
         <Route path="/items" element={<ViewItems />} />

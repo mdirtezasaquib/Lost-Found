@@ -10,7 +10,7 @@ const items = [
     description: "Black wallet with multiple cards and ID.",
     location: "Delhi Metro Station",
     date: "2025-06-01",
-    image: "https://images.unsplash.com/photo-1585386959984-a4155224a1e4?auto=format&fit=crop&w=400&q=80",
+    image: "https://www.indianleathercraft.com/cdn/shop/collections/20191126-094403.jpg?v=1586101467&width=1500",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const items = [
     description: "Found a blue Samsung Galaxy near park bench.",
     location: "Green Park, Delhi",
     date: "2025-05-30",
-    image: "https://images.unsplash.com/photo-1510552776732-03e61cf4b144?auto=format&fit=crop&w=400&q=80",
+    image: "https://images.samsung.com/is/image/samsung/assets/az/2407/pfs/04-02-ft12-B6-interpreter-mo-720x540.jpg?$720_N_JPG$",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const items = [
     description: "AIIMS student ID card, name: R. Verma.",
     location: "AIIMS Library",
     date: "2025-06-01",
-    image: "https://images.unsplash.com/photo-1554774853-d50f9c681ae2?auto=format&fit=crop&w=400&q=80",
+    image: "https://as1.ftcdn.net/v2/jpg/05/21/49/22/1000_F_521492250_BVw0LUDjuSxa3DmKy6qBZXZ0UqiDlekf.jpg",
   },
 ];
 

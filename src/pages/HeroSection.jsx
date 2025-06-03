@@ -5,6 +5,7 @@ import SearchFilterSection from '../pages/SearchFilterSection';
 import HowItWorks from '../pages/HowItWorks';
 import LostFoundList from '../pages/LostFoundList';
 import PopularCategories from '../pages/PopularCategories';
+import SuccessStories from '../pages/SucessStories';
 
 const HeroSection = () => {
   return (
@@ -69,6 +70,8 @@ const HeroSection = () => {
       <LostFoundList/>
 
       <PopularCategories/>
+
+      <SuccessStories/>
     
     </div>
   );

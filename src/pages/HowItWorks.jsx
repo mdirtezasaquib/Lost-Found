@@ -38,7 +38,7 @@ const HowItWorks = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-blue-700 mb-4">
           How It Works
         </h2>
-        <p className="text-gray-600 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
+        <p className="text-yellow-700 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
           A simple and secure 4-step process to get your items back or help others.
         </p>
 
