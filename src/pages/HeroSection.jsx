@@ -1,27 +1,30 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaSearch, FaExclamationTriangle, FaHandHoldingHeart } from 'react-icons/fa';
-import Features from '../pages/Features';
+import SearchFilterSection from '../pages/SearchFilterSection';
+import HowItWorks from '../pages/HowItWorks';
+import LostFoundList from '../pages/LostFoundList';
+import PopularCategories from '../pages/PopularCategories';
 
 const HeroSection = () => {
   return (
-    <div> {/* Top space for navbar */}
+    <div> 
       <section
         className="relative w-full min-h-screen bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&w=1950&q=80')", // better layout-fit image
+            "url('https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&w=1950&q=80')", 
         }}
       >
-        {/* Overlay */}
+    
         <div className="absolute inset-0  opacity-90"></div>
 
-        {/* Scroll Indicator */}
+        
         <div className="absolute bottom-6 w-full flex justify-center z-10">
           <div className="animate-bounce text-white text-2xl">▼</div>
         </div>
 
-        {/* Main Content */}
+
         <div className="relative z-10 flex flex-col justify-center items-center min-h-[calc(100vh-80px)] text-center px-4 ">
           <motion.div
             initial={{ opacity: 0, y: -40 }}
@@ -40,7 +43,7 @@ const HeroSection = () => {
               A smart way to report, find, and track lost items in your city. Help others while helping yourself.
             </p>
 
-            {/* CTA Buttons */}
+        
             <div className="flex flex-wrap justify-center gap-6">
               <button className="flex items-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold shadow-md transition duration-300 hover:scale-105">
                 <FaExclamationTriangle />
@@ -59,8 +62,14 @@ const HeroSection = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <Features />
+      <SearchFilterSection/>
+
+      <HowItWorks/>
+
+      <LostFoundList/>
+
+      <PopularCategories/>
+    
     </div>
   );
 };

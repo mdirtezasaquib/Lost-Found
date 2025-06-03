@@ -14,25 +14,25 @@ export default function Footer() {
     <footer className="bg-gradient-to-tr from-yellow-400 via-yellow-500 to-yellow-600 text-white pt-14 pb-0 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
 
-        {/* Branding with Icon */}
+        
         <div>
           <div className="flex items-center mb-4">
-            <FaSearchLocation className="text-3xl mr-2 text-[#2C67D3]" />
+            <FaSearchLocation className="text-3xl mr-2 text-blue-600" />
             <h2 className="text-3xl font-bold">RetrivO</h2>
           </div>
           <p className="text-sm mb-4">
             Revolutionizing lost and found with AI-based matching, real-time tracking, and seamless recovery experience.
           </p>
           <div className="flex space-x-4 mt-4">
-            <a href="#" className="text-[#2C67D3] hover:text-black transition-all duration-300"><FaFacebookF /></a>
+            <a href="#" className="text-blue-600 hover:text-black transition-all duration-300"><FaFacebookF /></a>
             <a href="#" className="text-black hover:text-black transition-all duration-300"><FaTwitter /></a>
-            <a href="#" className="text-[#2C67D3] hover:text-black transition-all duration-300"><FaLinkedinIn /></a>
+            <a href="#" className="text-blue-600 hover:text-black transition-all duration-300"><FaLinkedinIn /></a>
           </div>
         </div>
 
-        {/* Quick Links */}
+
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#2C67D3]">Quick Links</h3>
+          <h3 className="text-xl font-semibold mb-4 text-blue-600">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="#" className="hover:text-black transition-all duration-300">Home</a></li>
             <li><a href="#" className="hover:text-black transition-all duration-300">Report Item</a></li>
@@ -44,7 +44,7 @@ export default function Footer() {
 
         {/* Contact Info */}
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#2C67D3]">Contact Us</h3>
+          <h3 className="text-xl font-semibold mb-4 text-blue-600">Contact Us</h3>
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2"><FaPhone /> +91 98765 43210</li>
             <li className="flex items-center gap-2"><FaEnvelope /> support@retrivo.com</li>
@@ -52,9 +52,9 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter */}
+        
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#2C67D3]">Stay Updated</h3>
+          <h3 className="text-xl font-semibold mb-4 text-blue-600">Stay Updated</h3>
           <p className="text-sm mb-3">Subscribe to get the latest updates and recovery tips.</p>
           <form className="flex flex-col sm:flex-row items-start sm:items-center">
             <input
@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* ISO + Copyright - FULL WIDTH */}
+      
       <div className="w-full bg-white text-yellow-900 mt-10 py-4 px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm font-medium">
           © {new Date().getFullYear()} Retrivo Technologies Pvt. Ltd.

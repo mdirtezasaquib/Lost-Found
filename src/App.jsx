@@ -4,8 +4,11 @@ import ViewItems from './pages/ViewItems';
 import ItemDetails from './pages/ItemDetails';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Features from './pages/Features';
 import HeroSection from './pages/HeroSection';
+import SearchFilterSection from './pages/SearchFilterSection';
+import HowItWorks from './pages/HowItWorks';
+import LostFoundList from './pages/LostFoundList';
+import PopularCategories from './pages/PopularCategories';
 
 export default function App() {
   return (
@@ -15,7 +18,11 @@ export default function App() {
       <Routes>
        
         <Route path="/" element={<HeroSection />} />
-        <Route path="/" element={<Features />} />
+         <Route path="/" element={<SearchFilterSection />} />
+         <Route path="/" element={<HowItWorks />} />
+         <Route path="/" element={<LostFoundList />} />
+          <Route path="/" element={<PopularCategories />} />
+
         <Route path="/report-lost" element={<ReportLost />} />
         <Route path="/items" element={<ViewItems />} />
         <Route path="/item/:id" element={<ItemDetails />} />
