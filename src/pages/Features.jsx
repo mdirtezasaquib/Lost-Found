@@ -28,7 +28,7 @@ export default function Features() {
 
   return (
     <div className="w-full bg-[#F6F6F6] py-16 px-4 md:px-10">
-      <div className="max-w-7xl mx-auto text-center mt-10">
+      <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">Simply Foundtastic!</h2>
         <p className="text-yellow-900 text-lg mb-10">
           We offer you the <span className="font-semibold">best Lost and Found experience worldwide</span> with our{" "}

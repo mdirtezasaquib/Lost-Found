@@ -5,6 +5,7 @@ import ItemDetails from './pages/ItemDetails';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Features from './pages/Features';
+import HeroSection from './pages/HeroSection';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       
       <Routes>
        
+        <Route path="/" element={<HeroSection />} />
         <Route path="/" element={<Features />} />
         <Route path="/report-lost" element={<ReportLost />} />
         <Route path="/items" element={<ViewItems />} />
