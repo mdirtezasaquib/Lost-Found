@@ -27,10 +27,10 @@ export default function Features() {
   ];
 
   return (
-    <div className="w-full bg-yellow-100 py-16 px-4 md:px-10">
+    <div className="w-full bg-[#F6F6F6] py-16 px-4 md:px-10">
       <div className="max-w-7xl mx-auto text-center mt-10">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">Simply Foundtastic!</h2>
-        <p className="text-gray-600 text-lg mb-10">
+        <p className="text-yellow-900 text-lg mb-10">
           We offer you the <span className="font-semibold">best Lost and Found experience worldwide</span> with our{" "}
           <span className="font-semibold">leading Lost and Found Services</span>!
         </p>
@@ -45,7 +45,7 @@ export default function Features() {
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">{feature.title}</h3>
-              <p className="text-gray-600 text-sm">{feature.description}</p>
+              <p className="text-yellow-900 text-sm">{feature.description}</p>
             </div>
           ))}
         </div>
