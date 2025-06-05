@@ -72,7 +72,7 @@ export default function Footer() {
       
       <div className="w-full bg-white text-yellow-900 mt-10 py-4 px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm font-medium">
-          © {new Date().getFullYear()} Retrivo Technologies Pvt. Ltd.
+          © {new Date().getFullYear()} Retrivo Technologies Pvt. Ltd. By- Irteza-Saquib...
         </p>
 
         <div className="flex items-center space-x-3">
@@ -82,7 +82,7 @@ export default function Footer() {
             className="w-8 h-8"
           />
           <div className="text-sm font-semibold">
-            ISO 27001:2022 <br className="md:hidden" /> Certified
+            ISO 27001:2025 <br className="md:hidden" /> Certified
           </div>
         </div>
       </div>

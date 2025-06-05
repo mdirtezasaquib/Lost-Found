@@ -15,6 +15,7 @@ import StatsCounter from './pages/StatsCounter';
 import SafetyPolicy from './pages/SafetyPolicy';
 import WhatMakesUsDifferent from './pages/WhatMakesUsDifferent';
 import FAQSection from './pages/FAQSection';
+import AppPromo from './pages/AppPromo';
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/" element={<SafetyPolicy />} />
            <Route path="/" element={<WhatMakesUsDifferent />} />
            <Route path="/" element={<FAQSection />} />
+            <Route path="/" element={<AppPromo />} />
 
 
 

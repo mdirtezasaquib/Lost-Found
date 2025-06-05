@@ -10,7 +10,7 @@ const StatCard = ({ icon: Icon, label, target, color }) => {
     const end = parseInt(target);
     if (start === end) return;
 
-    const duration = 2000; 
+    const duration = 8000; 
     const stepTime = Math.abs(Math.floor(duration / end));
     const timer = setInterval(() => {
       start += 1;

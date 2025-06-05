@@ -11,6 +11,7 @@ import StatsCounter from '../pages/StatsCounter';
 import SafetyPolicy from '../pages/SafetyPolicy';
 import WhatMakesUsDifferent from '../pages/WhatMakesUsDifferent';
 import FAQSection from '../pages/FAQSection';
+import AppPromo from '../pages/AppPromo';
 
 const HeroSection = () => {
   const navigate = useNavigate(); 
@@ -84,6 +85,7 @@ const HeroSection = () => {
       <SafetyPolicy/>
       <WhatMakesUsDifferent/>
       <FAQSection/>
+      <AppPromo/>
     </div>
   );
 };
