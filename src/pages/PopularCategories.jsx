@@ -24,7 +24,7 @@ const PopularCategories = () => {
         <h2 className="text-4xl font-bold text-blue-700 mb-3">
           Popular Categories
         </h2>
-        <p className="text-yellow-700 text-lg mb-10">
+        <p className="text-yellow-700 text-lg md:text-xl mb-10">
           Browse the most commonly reported items
         </p>
 

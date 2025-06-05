@@ -56,7 +56,7 @@ const LostFoundList = () => {
               viewport={{ once: true }}
               className="relative bg-white backdrop-blur-xl rounded-3xl shadow-lg border border-blue-100 hover:scale-[1.02] transition-transform duration-300 bg-gradient-to-br from-yellow-50 via-white to-blue-50 border border-blue-100"
             >
-              {/* Badge */}
+
               <div className={`absolute top-4 right-4 px-3 py-1 text-xs font-bold rounded-full z-10 ${
                 item.type === 'Lost'
                   ? 'bg-yellow-400 text-yellow-900'
@@ -65,7 +65,7 @@ const LostFoundList = () => {
                 {item.type}
               </div>
 
-              {/* Image */}
+
               <div className="w-full h-48 overflow-hidden rounded-t-3xl">
                 <img
                   src={item.image}
@@ -74,7 +74,7 @@ const LostFoundList = () => {
                 />
               </div>
 
-              {/* Content */}
+        
               <div className="p-6 space-y-3">
                 <h3 className="text-2xl font-semibold text-blue-800">
                   {item.name}
@@ -90,7 +90,7 @@ const LostFoundList = () => {
                   <span>{item.date}</span>
                 </div>
 
-                {/* Actions */}
+    
                 <div className="pt-4 flex flex-wrap gap-3">
                   <button className="bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2 rounded-xl text-sm font-medium transition-all shadow">
                     View

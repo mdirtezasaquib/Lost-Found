@@ -62,7 +62,7 @@ const SuccessStories = () => {
         <h2 className="text-4xl font-bold text-center text-blue-700 mb-4">
           Success Stories
         </h2>
-        <p className="text-center text-yellow-700 max-w-2xl mx-auto mb-12">
+        <p className="text-center text-lg md:text-xl text-yellow-700 max-w-2xl mx-auto mb-12 text-lg md:text-xl">
           Real stories from users who reunited with their belongings.
         </p>
 

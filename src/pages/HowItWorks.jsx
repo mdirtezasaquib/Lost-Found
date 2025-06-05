@@ -42,7 +42,7 @@ const HowItWorks = () => {
           A simple and secure 4-step process to get your items back or help others.
         </p>
 
-        {/* Step Cards */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <motion.div
