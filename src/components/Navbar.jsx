@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <>
     
-      <nav className="bg-gradient-to-tr from-yellow-400 via-yellow-500 to-yellow-600 shadow-lg fixed w-full z-50">
+      <nav className="bg-gradient-to-tr from-yellow-400 via-yellow-500 to-yellow-600 shadow-lg fixed w-full z-50 ">
         <div className="max-w-7xl mx-auto px-4 flex justify-between h-16 items-center">
           
           <div className="flex items-center space-x-2 text-white font-bold text-xl">
